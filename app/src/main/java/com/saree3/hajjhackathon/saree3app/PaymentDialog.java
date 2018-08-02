@@ -31,7 +31,7 @@ public class PaymentDialog extends AppCompatDialogFragment {
         LayoutInflater inflater = getActivity().getLayoutInflater();
         View view = inflater.inflate(R.layout.payment_dialog, null);
 
-        builder.setView(view).setTitle("تفاصيل الفاتورة").setNegativeButton("إلغاء", new DialogInterface.OnClickListener() {
+        builder.setView(view).setNegativeButton("إلغاء", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
